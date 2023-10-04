@@ -17,7 +17,6 @@ def show_menu():
     print("4 - Random Meal")
     print("5 - List all Areas")
     print("6 - Search Meals by Area")
-    print("7 - Menu")
     print("0 - Exit the Program")
     print()
 
@@ -148,7 +147,7 @@ def main():
     # User menu selection
     while True:
         show_menu()
-        command = input("Command (Press 7 for Menu): ")
+        command = input("Command: ")
         if command == "1":
             print()
             list_categories(categories)
@@ -164,9 +163,6 @@ def main():
             list_areas(areas)
         elif command == "6":
             search_meals_by_area(areas)
-        elif command == "7":
-            print()
-            show_menu()
         elif command == "0":
             print("\nThank you for dining with us!\n")
             break
