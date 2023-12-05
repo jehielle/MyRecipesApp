@@ -1,5 +1,5 @@
 # MyRecipesApp
-_Console app written in Python + an API by TheMealDB (available [here](https://www.themealdb.com/api.php))._
+_Console app written in Python for class (2020) + an API by TheMealDB (available [here](https://www.themealdb.com/api.php))._
 ## Project Requirements
 **Menu**
  - List all Categories
